@@ -22,5 +22,5 @@ Tarayıcınızda http://127.0.0.1:5173/ adresini açın.
 
 
 
-###Katkıda Bulunma
+### Katkıda Bulunma
 Bu proje,  **BATUHAN SEVİNÇ**  tarafından bir front-end mülakatı için hazırlanmıştır. Bu nedenle, katkıda bulunmak için açık bir şekilde izin verilmez.
