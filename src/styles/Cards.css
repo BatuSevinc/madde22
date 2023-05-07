@@ -1,0 +1,232 @@
+.cards{
+    width: 75%;
+    padding-bottom:16px;
+}
+.cards:first-child{
+    padding-top: 60px;
+}
+.cardBgBlack{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    background-color: #000000;
+    z-index: 1;
+}
+.cardsContainer{
+    padding-left: 20px;
+    z-index: 2;
+    display: flex;
+}
+.cardDate{
+    width: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardDate p{
+    margin: 0 0;
+    text-align: center;
+    font-family: GalanaMedium;
+}
+.cardImage{
+display: flex;
+position: relative;
+padding: 16px;
+z-index: 2;
+}
+.cardContent{
+    position: absolute;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-top: 16px ;
+    color: white;
+    left: -1px;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardTitle{
+    font-family: GalanaBold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+.readMoreRes{
+    display: none;
+}
+.cardLocation{
+    font-family: 'Galano Grotesque';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9C9C9C;
+}
+.cardAddressImg{
+    width: 24px;
+}
+.cardExp{
+    font-family: GalanaRegular;
+}
+.cardClicks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 17px;
+}
+
+.cardButtonBuy{
+    width: 165px;
+    height: 50px;
+    font-weight: 700;
+    background: #FF0D87;
+    border: 1px solid #FF0D87;
+    border-radius: none;   
+}
+.cardButtonBuy:hover{
+    background-color: #d6076e;
+    border: 1px solid #d6076e;
+}
+.cardButtonBuy:focus{
+    background-color: #d6076e !important;
+    border: 1px solid #d6076e !important;
+}
+.cardButtonCalendar{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    background-color: #FFF;
+    border: none;
+    color: #000000;
+}
+.cardButtonCalendar:hover{
+    background-color: #FFF;
+    border: none;
+    color: #000000;
+}
+.cardButtonCalendar:focus{
+    background-color: #FFF !important;
+    border: none !important;
+    color: #000000;
+}
+.cardButtonCalendar img{
+margin-right: 5px;
+margin-top: 2px;
+}
+.read-or-hide{
+    cursor: pointer;
+  }
+  .section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    margin-bottom: 60px;
+    font-family: GalanaMedium;
+}
+.filter{
+    margin: 13px 80px;
+    cursor: pointer;
+    color: #FF0D87;
+    line-height: 26px;
+}
+.calendar{
+    margin: 13px 80px;
+    cursor: pointer;
+    line-height: 26px;
+}
+@media only screen and (max-width: 1200px) {
+.cards{
+    width: 100%;
+}
+.cardBgBlack{
+    position: absolute;
+    height: 52%;
+    width: 100%;
+    background-color: #000000;
+    z-index: 1;
+}
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+.cardDate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 6px;
+}
+.cardDate p:first-child{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.cardDate p:nth-child(2){
+    font-family: 'Acme';
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.cardDate p:nth-child(3), p:nth-child(4){
+    font-family: 'Acme';
+    font-size: 20px;
+    color: rgba(156, 156, 156, 1);
+}
+.cardContent{
+    position: absolute;
+    padding: 0 20px;
+    margin-top: 16px ;
+    color: white;
+    left: -21px;
+    top: -45px;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardTitle{
+    font-family: 'Acme';
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 30%;
+}
+.readMore{
+    display: none;
+}
+.readMoreRes{
+    display: block;
+}
+.read-or-hide{
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+  }
+.cardClicks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardButtonBuy{
+    width: 150px;
+    margin-bottom: 20px;    
+}
+.section{
+    margin-bottom: 16px;
+}
+.filter{
+    margin: 16px 13px;
+    cursor: pointer;
+}
+.calendar{
+    margin: 16px 13px;
+    cursor: pointer;
+}
+}

@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.headerLogo{
+    width: 60px;
+    height: 63px;
+    margin-top: 37px;
+    margin-bottom: 55px;
+}
+.headerTitle{
+font-family: GalanaExtra;
+margin-bottom: 40px;
+font-size: 32px;
+line-height: 40px;
+font-weight: 700;
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+@media only screen and (max-width: 1200px) {
+    .headerLogo{
+        display: none;
+    }
+    .headerTitle{
+        margin-top: 75px;
+        margin-bottom: 52px;
+        font-size: 24px;
+        line-height: 34px;
+        
+    }
+  }

@@ -1,0 +1,19 @@
+@import './styles/Cards.css';
+@import './styles/Header.css';
+@import './styles/Navigation.css';
+@font-face{
+    font-family: GalanaBold;
+    src: url('./fonts/GalanoGrotesqueBold.otf');
+}
+@font-face{
+    font-family: GalanaRegular;
+    src: url('./fonts/GalanoGrotesqueRegular.otf');
+}
+@font-face{
+    font-family: GalanaExtra;
+    src: url('./fonts/GalanoGrotesqueExtraBold.otf');
+}
+@font-face{
+    font-family: GalanaMedium;
+    src: url('./fonts/GalanoGrotesqueMedium.otf');
+}
