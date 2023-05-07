@@ -15,7 +15,7 @@ _Bootstrap_
 Projenin yerel olarak çalıştırılabilmesi için aşağıdaki adımları izleyin:
 
 Projeyi bilgisayarınıza kopyalayın: git clone https://github.com/batusevinc/madde22.git
-Projenin klasörüne gidin: cd madde22-challenge
+Projenin klasörüne gidin: cd madde22
 Gerekli bağımlılıkları yükleyin: npm install
 Projeyi çalıştırın: npm run dev
 Tarayıcınızda http://127.0.0.1:5173/ adresini açın.
