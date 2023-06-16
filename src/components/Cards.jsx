@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Address from "../assets/Address.png";
 import Button from 'react-bootstrap/Button';
 import Add from '../assets/add.png';
-import Added from '../assets/Added.png';
+import Added from '../assets/added.png';
 
 
 const Cards = ({ title, image, explanation, explanationResp, location, date, content, color, bgColor, dateDay, dateMonth, dateTime, }) => {
